@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.btn{
+    display: flex;
+    gap: 1rem;
+}
+.btn button{
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 0.7rem;
+}
+.container h1{
+    font-size: 5rem;
+}
+.decrease{
+    background-color: red;
+}
+.reset{
+    background-color:gray;
+}
+.increase{
+    background-color: green;
+}
